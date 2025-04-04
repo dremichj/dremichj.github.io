@@ -20,10 +20,10 @@ body{
    margin: 10px auto;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:700px) {
    .top-container{
       width:90%;
-      height:auto
+      height:100px;
    }
 }
 
