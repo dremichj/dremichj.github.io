@@ -1,11 +1,86 @@
 .red{
     color: red;
- }
- .thick{
-    font-size:20px;
- }
- .green{
-    color:green;
- }
+}
+.thick{
+   font-size:20px;
+}
+.green{
+   color:green;
+}
 
- 
+
+body{
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-container {
+   width: 50%;
+   min-width: 500px;
+   margin: 10px auto;
+}
+
+.top-bar {
+   position: relative;
+   background-color:rgb(102, 101, 101);
+   padding:10px;
+   display:flex;
+   align-items: center;
+   border-radius: 10px;
+}
+
+.left {
+   z-index: 1;
+}
+
+.center {
+   position:absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.home-link {
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #363636;
+   padding:5px 10px;
+   border-radius: 5px;
+}
+
+.home-link:hover {
+   color:black;
+   background-color: #ccc;
+   font-weight:bold;
+}
+
+:root {
+   --top-outline-size: 0px;  
+   --top-outline-color: rgb(243, 209, 145);
+}
+
+.center h1 {
+   margin:10px 5px;
+   color:rgb(245, 228, 197);
+   /*text-shadow: 
+      calc(-1*var(--top-outline-size)) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
+      var(--top-outline-size) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
+      calc(-1*var(--top-outline-size)) var(--top-outline-size) 0 var(--top-outline-color),
+      var(--top-outline-size) var(--top-outline-size) 0 var(--top-outline-color);
+   */
+}
+
+.column-container{
+   width:80%;
+   margin: 100px auto;
+   display:flex;
+}
+
+.column-box{
+   width:45%;
+   min-width: 100px;
+   height:300px;
+   margin:5px auto ;
+   background-color: rgb(147, 173, 173);
+   border-radius: 10px;
+   border:2px solid black;
+}
