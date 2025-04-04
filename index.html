@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dreon Dev</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      h1, h2, h3, h4, h5, h6, g{
-       font-family: Arial;
-       text-emphasis: True;
-      }
-      h1{
-       color: rgb(129, 129, 129);
-      }
-      g{
-        font-size:509px
-      }
+  <title> Dreon Dev </title>
+  <style>
+    body{
+      margin: 0;
+      font-family: Arial;
+    }
+
+    .top-bar {
+      position:relative;
+      background-color:rgb(53, 53, 53);
+      padding:10px;
+      display:flex;
+      align-items: center;
+      border-radius: 5px;
+    }
+
+    .left {
+      z-index: 1;
+    }
+
+    .center {
+      position:absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .home-link {
+      text-decoration: none;
+      color: #000;
+      background-color: #7a7a7a;
+      padding:5px 10px;
+      border-radius: 5px;
+    }
+
+    .home-link:hover {
+      background-color: #ccc;
+    }
+
+    .center h1 {
+      margin:0;
+    }
+
     </style>
 </head>
-<body style = "background-color: rgb(39, 39, 39);">
+<body style = "background-color: rgb(185, 185, 185);">
   
-  <h1 align="center" >Welcome to my website!</h1>
+  <div class = "top-bar"> 
+    <div class ="left">
+      <a href="index.html" class ="home-link">Home</a>
+    </div>  
+    <div class="center">
+      <h1>Welcome</h1>
+    </div>
+  </div>
   
-  <p align ="center">This is my first Html  page.</p>
+  
+  
   <h2 class="red">I ama goat</h2>
   <a href="https://github.com/dremichj/portfolio/">Visit Example</a>
   <br>
