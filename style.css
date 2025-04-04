@@ -20,6 +20,13 @@ body{
    margin: 10px auto;
 }
 
+@media only screen and (max-width:600px) {
+   .top-container{
+      width:90%;
+      height:auto
+   }
+}
+
 .top-bar {
    position: relative;
    background-color:rgb(102, 101, 101);
