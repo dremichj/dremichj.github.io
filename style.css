@@ -15,7 +15,7 @@ body{
 }
 
 .top-container {
-   width: 50%;
+   width: 90%;
    min-width: 500px;
    margin: 10px auto;
 }
@@ -23,7 +23,7 @@ body{
 @media only screen {
    .top-container{
       width:90%;
-      height:auto
+      height:auto;
    }
 }
 
