@@ -46,6 +46,10 @@ body{
    transform: translateX(-50%);
 }
 
+.right{
+   align-items: right;
+}
+
 .home-link {
    text-decoration: none;
    color: #ffffff;
