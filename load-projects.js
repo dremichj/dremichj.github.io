@@ -18,21 +18,21 @@ document.addEventListener('DOMContentLoaded', () => {
           } else if (line.startsWith('D:"') && line.endsWith('"')) {
             currentDesc = line.slice(3, -1);
   
-            // Create a new card
+            // ✅ Build the project block
             const project = document.createElement('div');
             project.className = 'column-box';
   
-            const titleEl = document.createElement('h3');
-            titleEl.textContent = currentTitle;
+            const titleElement = document.createElement('h3');
+            titleElement.textContent = currentTitle;
   
-            const descEl = document.createElement('p');
-            descEl.textContent = currentDesc;
+            const descriptionElement = document.createElement('p');
+            descriptionElement.textContent = currentDesc;
   
-            project.appendChild(titleEl);
-            project.appendChild(descEl);
+            project.appendChild(titleElement);
+            project.appendChild(descriptionElement);
             container.appendChild(project);
   
-            // Reset for next card
+            // Reset for next project
             currentTitle = '';
             currentDesc = '';
           }
