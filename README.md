@@ -1,1 +1,1 @@
-https://dremichj.github.io/portfolio/
+https://dremichj.github.io
