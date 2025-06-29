@@ -33,9 +33,10 @@ body{
    padding:10px;
    display:flex;
    align-items: center;
+   justify-content: space-between;
    border-radius: 10px;
 }
-
+ 
 .left {
    z-index: 1;
 }
@@ -47,7 +48,7 @@ body{
 }
 
 .right{
-   align-items: right;
+   z-index: 1;
 }
 
 .home-link {
