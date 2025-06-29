@@ -84,24 +84,21 @@ body{
 }
 
 .column-container{
-   width:80%;
-   margin: 100px auto;
-   display:flex;
-   flex-wrap: wrap;
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
    gap: 20px;
-   justify-content: center;
+   width: 80%;
+   margin: 100px auto;
 }
 
 .column-box{
-   width:45%;
    min-width: 100px;
-   height:300px;
-   margin:5px auto ;
-   background-color: rgb(147, 173, 173);
-   border-radius: 10px;
-   border:2px solid black;
-   padding: 15px;
-   box-sizing: border-box;
+  height: 300px;
+  background-color: rgb(147, 173, 173);
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .column-box h3{

@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
             project.appendChild(titleElement);
             project.appendChild(descriptionElement);
-            container.appendChild(project);
+            container.prepend(project);
   
             // Reset for next project
             currentTitle = '';
