@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
           } else if (line.startsWith('D:"') && line.endsWith('"')) {
             currentDesc = line.slice(3, -1);
   
-            // ✅ Build the project block
             const project = document.createElement('div');
             project.className = 'column-box';
   
