@@ -70,16 +70,6 @@ body{
    z-index: 1;
 }
 
-.github-logo{
-   height:19px;
-   width:auto;
-   display: block;
-   position:absolute;
-   top:0;
-   left:0;
-   transition: opacity 0.2s ease;
-}
-
 .logo-wrapper{
    position:relative;
    width:19px;
@@ -97,16 +87,18 @@ body{
    gap: 5px;
    text-decoration: none;
    color: var(--blue1);
-   background-color: var(--blue3);
-   padding: 5px 10px;
-   border-radius: 5px;
+   background-color: var(--blue4);
+   border: 2px solid var(--blue2);
+   padding: 10px;
+   border-radius: 15px;
    transition: all 0.2s ease;
    position:relative;
 }
 
 .home-link:hover {
    background-color: var(--blue1);
-   color:black
+   color:black;
+   border-color: var(--blue4);
 }
 
 .home-link:hover .logo-hover{
@@ -138,7 +130,7 @@ body{
 }
 
 .column-box{
-   display: flex;
+display: flex;
   flex-direction: column;
   justify-content: flex-start;
   min-width: 100px;
@@ -166,8 +158,8 @@ body{
    background-color: var(--blue2);
    color:var(--blue1);
    padding:4px 10px;
-   border-radius: 5px;
-   font-size:0.8rem;
+   border-radius: 15px;
+   font-size:16px;
    flex:0 0 auto;
    white-space: nowrap;
 }
@@ -197,15 +189,39 @@ body{
   transition: all 0.2s ease;
 }
 
-
-.github-link-logo{
-   height: 20px;
-   width:auto;
-   transition:filter 0.2s ease;
-
+.github-logo-wrapper{
+   position:relative;
+   width:20px;
+   height:20px;
+   display:inline-block;
 }
 
-.project-link:hover .github-link-logo:hover{
-   background-color: var(--blue1);
+.github-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
 
+.github-logo.default{
+   opacity: 1;
+}
+
+.github-logo.hover{
+   opacity: 0;
+}
+
+.project-link:hover .github-logo.default{
+   opacity: 0;
+}
+
+.project-link:hover .github-logo.hover{
+   opacity: 1;
+}
+
+.project-link:hover{
+   background-color: var(--blue1);
 }

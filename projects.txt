@@ -1,19 +1,23 @@
-T:"Sticky Note"
-D:"Easy way to leave important information on your screen"
+T:"StickyWin"
+D:"A simple sticky note application"
 S: C++ 2++
-L: https://example.com/stickynote
+L: https://github.com/dremichj/StickyWin
+E:
 
 T:"This portfolio!"
 D:"I wanted to make a portfolio"
 S: Tag
-L:
+L:https://github.com/dremichj/dremichj.github.io
+E:
 
 T:"This portfolio2!"
 D:"I wanted to make a portfolio2"
 S: code
 L:
+E:
 
 T:"STUFF"
 D:"DES"
 S: funsi
 L: 
+E:

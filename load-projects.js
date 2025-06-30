@@ -25,9 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
             currentSkills = skills.split(/\s+/);
           } else if (line.startsWith('L:')){
             currentLink = line.slice(2).trim();
+            if (currentLink==''){
+              currentLink = ' ';
+            }
           }
 
-          if (currentTitle && currentDesc && currentSkills.length >0){
+          if (line.startsWith('E:')){
             const project = document.createElement('div');
             project.className = 'column-box';
   
@@ -58,10 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
             linkBtn.className='project-link';
             linkBtn.href = currentLink;
 
-            const img = document.createElement('img');
-            img.src='github-mark-white.png';
-            img.className = 'github-link-logo';
-            linkBtn.appendChild(img);
+            const logoWrapper = document.createElement('span');
+            logoWrapper.className= 'github-logo-wrapper';
+
+            const imgDefault = document.createElement('img');
+            imgDefault.src='github-mark-white.png';
+            imgDefault.className = 'github-logo default';
+
+            const imgHover = document.createElement('img');
+            imgHover.src = 'github-mark.png';
+            imgHover.className = 'github-logo hover';
+
+            logoWrapper.appendChild(imgDefault);
+            logoWrapper.appendChild(imgHover);
+            linkBtn.appendChild(logoWrapper);
 
             skillContainer.appendChild(linkBtn);
 
