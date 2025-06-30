@@ -8,11 +8,21 @@
    color:green;
 }
 
+/*
+   COLORS
+   Background blue: #0D1B2A
+   Menu bar gray: #1B263B
+   Blue3: #415A77
+   Blue4: #778DA9
+   White: #E0E1DD
+*/
+
+
 
 body{
    margin: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-color: #222127;
+   background-color: #0D1B2A;
 }
 
 .top-container {
@@ -30,7 +40,7 @@ body{
 
 .top-bar {
    position: relative;
-   background-color:rgb(102, 101, 101);
+   background-color:#1B263B;
    padding:10px;
    display:flex;
    align-items: center;
@@ -38,6 +48,7 @@ body{
    border-radius: 10px;
 }
  
+
 .left {
    z-index: 1;
 }
@@ -52,20 +63,51 @@ body{
    z-index: 1;
 }
 
-.home-link {
-   text-decoration: none;
-   color: #ffffff;
-   background-color: #363636;
-   padding:5px 10px;
-   border-radius: 5px;
+.github-logo{
+   height:19px;
+   width:auto;
+   display: block;
+   position:absolute;
+   top:0;
+   left:0;
+   transition: opacity 0.2s ease;
 }
 
+.logo-wrapper{
+   position:relative;
+   width:19px;
+   height:19px;
+}
 
+.logo-hover{
+   opacity:0;
+   transition: opacity 0.2s ease;
+}
+
+.home-link {
+   display: inline-flex;
+   align-items: center;
+   gap: 5px;
+   text-decoration: none;
+   color: #E0E1DD;
+   background-color: #415A77;
+   padding: 5px 10px;
+   border-radius: 5px;
+   transition: all 0.2s ease;
+   position:relative;
+}
 
 .home-link:hover {
-   color:black;
    background-color: #ccc;
-   font-weight:bold;
+   color:black
+}
+
+.home-link:hover .logo-hover{
+   opacity:1;
+}
+
+.home-link:hover .logo-default{
+   opacity:0;
 }
 
 :root {
@@ -75,7 +117,7 @@ body{
 
 .center h1 {
    margin:10px 5px;
-   color:rgb(245, 228, 197);
+   color:#E0E1DD;
    /*text-shadow: 
       calc(-1*var(--top-outline-size)) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
       var(--top-outline-size) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
@@ -95,11 +137,12 @@ body{
 .column-box{
    min-width: 100px;
    height: 300px;
-   background-color: rgb(147, 173, 173);
+   background-color: #415A77;
    border-radius: 10px;
-   border: 2px solid black;
+   border: 2px solid #778DA9;
    padding: 15px;
    box-sizing: border-box;
+   color:#E0E1DD;
 }
 
 .column-box h3{
