@@ -18,11 +18,18 @@
 */
 
 
+:root {
+   --blue5: #0D1B2A;
+   --blue4: #1B263B;
+   --blue3: #415A77;
+   --blue2: #778DA9;
+   --blue1: #E0E1DD;
+}
 
 body{
    margin: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-color: #0D1B2A;
+   background-color: var(--blue5);
 }
 
 .top-container {
@@ -40,7 +47,7 @@ body{
 
 .top-bar {
    position: relative;
-   background-color:#1B263B;
+   background-color:var(--blue4);
    padding:10px;
    display:flex;
    align-items: center;
@@ -89,8 +96,8 @@ body{
    align-items: center;
    gap: 5px;
    text-decoration: none;
-   color: #E0E1DD;
-   background-color: #415A77;
+   color: var(--blue1);
+   background-color: var(--blue3);
    padding: 5px 10px;
    border-radius: 5px;
    transition: all 0.2s ease;
@@ -98,7 +105,7 @@ body{
 }
 
 .home-link:hover {
-   background-color: #ccc;
+   background-color: var(--blue1);
    color:black
 }
 
@@ -110,14 +117,10 @@ body{
    opacity:0;
 }
 
-:root {
-   --top-outline-size: 0px;  
-   --top-outline-color: rgb(243, 209, 145);
-}
 
 .center h1 {
    margin:10px 5px;
-   color:#E0E1DD;
+   color:var(--blue1);
    /*text-shadow: 
       calc(-1*var(--top-outline-size)) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
       var(--top-outline-size) calc(-1*var(--top-outline-size)) 0 var(--top-outline-color),
@@ -137,12 +140,12 @@ body{
 .column-box{
    min-width: 100px;
    height: 300px;
-   background-color: #415A77;
+   background-color: var(--blue3);
    border-radius: 10px;
-   border: 2px solid #778DA9;
+   border: 2px solid var(--blue2);
    padding: 15px;
    box-sizing: border-box;
-   color:#E0E1DD;
+   color:var(--blue1);
 }
 
 .column-box h3{
