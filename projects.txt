@@ -1,8 +1,19 @@
 T:"Sticky Note"
 D:"Easy way to leave important information on your screen"
+S: C++ 2++
+L: https://example.com/stickynote
 
 T:"This portfolio!"
 D:"I wanted to make a portfolio"
+S: Tag
+L:
 
 T:"This portfolio2!"
 D:"I wanted to make a portfolio2"
+S: code
+L:
+
+T:"STUFF"
+D:"DES"
+S: funsi
+L: 
