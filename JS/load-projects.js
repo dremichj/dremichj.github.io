@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('projects.txt')
+    fetch('../projects.txt')
       .then(response => {
         if (!response.ok) throw new Error('Failed to load');
         return response.text();
@@ -65,11 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
             logoWrapper.className= 'github-logo-wrapper';
 
             const imgDefault = document.createElement('img');
-            imgDefault.src='github-mark-white.png';
+            imgDefault.src='files/github-mark-white.png';
             imgDefault.className = 'github-logo default';
 
             const imgHover = document.createElement('img');
-            imgHover.src = 'github-mark.png';
+            imgHover.src = 'files/github-mark.png';
             imgHover.className = 'github-logo hover';
 
             logoWrapper.appendChild(imgDefault);
