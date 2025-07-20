@@ -1,6 +1,6 @@
 T:"StickyWin"
 D:"A simple sticky note application"
-S: C++ 2++
+S: C++ wxWindows
 L: https://github.com/dremichj/StickyWin
 E:
 
@@ -10,10 +10,10 @@ S: Tag
 L:https://github.com/dremichj/dremichj.github.io
 E:
 
-T:"This portfolio2!"
-D:"I wanted to make a portfolio2"
-S: code
-L:
+T:"Web Battles"
+D:"A simple physics simulation that pits shapes against each other."
+S: Javascript WebGL
+L:/webbattle.html
 E:
 
 T:"STUFF"
