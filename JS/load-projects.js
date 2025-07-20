@@ -65,11 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
             logoWrapper.className= 'github-logo-wrapper';
 
             const imgDefault = document.createElement('img');
-            imgDefault.src='Files/github-mark-white.png';
+            imgDefault.src='../Files/github-mark-white.png';
             imgDefault.className = 'github-logo default';
 
             const imgHover = document.createElement('img');
-            imgHover.src = 'Files/github-mark.png';
+            imgHover.src = '../Files/github-mark.png';
             imgHover.className = 'github-logo hover';
 
             logoWrapper.appendChild(imgDefault);
