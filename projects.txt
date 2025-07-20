@@ -13,7 +13,7 @@ E:
 T:"Web Battles"
 D:"A simple physics simulation that pits shapes against each other."
 S: Javascript WebGL
-L:/webbattle.html
+L:/Web-Battle/
 E:
 
 T:"STUFF"
