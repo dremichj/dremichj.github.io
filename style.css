@@ -24,12 +24,18 @@
    --blue3: #415A77;
    --blue2: #778DA9;
    --blue1: #E0E1DD;
+
 }
+
 
 body{
    margin: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   min-height: 1030px;
    background-color: var(--blue5);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .top-container {
@@ -225,3 +231,36 @@ display: flex;
 .project-link:hover{
    background-color: var(--blue1);
 }
+
+.res-container{
+   display: flex;
+   justify-content: center;
+   padding: 2rem;
+   min-height: 1030px;
+   box-sizing: border-box;
+}
+
+.res-container embed{
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+.main-page {
+  padding: 0.25rem 0.25rem;
+  text-align: center;
+  background-color: var(--blue5);
+}
+
+.main-page h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0 0 0.5rem; 
+}
+
+.main-page .subtitle {
+  font-size: 1.25rem;
+  color: #d0d0d0;
+  margin: 0;
+}
+
