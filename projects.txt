@@ -9,15 +9,3 @@ D:"I wanted to make a portfolio I wanted to make a portfolio I wanted to make a 
 S: Tag
 L:https://github.com/dremichj/dremichj.github.io
 E:
-
-T:"Web Battles"
-D:"A simple physics simulation that pits shapes against each other."
-S: Javascript WebGL
-L:/Web-Battle/
-E:
-
-T:"STUFF"
-D:"DES"
-S: funsi
-L: 
-E:
