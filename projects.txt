@@ -6,6 +6,12 @@ E:
 
 T:"This portfolio!"
 D:"I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio "
-S: Tag
+S: HTML CSS JavaScript
 L:https://github.com/dremichj/dremichj.github.io
+E:
+
+T:"CBSend"
+D:"During my classes I found that I would regularly have to upload images to my computer. Rather than sending them through Google Drive, I wrote this program that would allow me to send them automatically to my computer's clipboard."
+S: Python Flask Web-Development
+L:https://github.com/dremichj/CBSend
 E:
