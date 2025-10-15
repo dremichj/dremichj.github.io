@@ -5,7 +5,7 @@ L: https://github.com/dremichj/StickyWin
 E:
 
 T:"This portfolio!"
-D:"I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio I wanted to make a portfolio "
+D:"I wanted to make a portfolio to show off my skills"
 S: HTML CSS JavaScript
 L:https://github.com/dremichj/dremichj.github.io
 E:
