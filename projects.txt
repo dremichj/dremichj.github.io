@@ -1,9 +1,3 @@
-T:"StickyWin"
-D:"A simple sticky note application"
-S: C++ wxWindows
-L: https://github.com/dremichj/StickyWin
-E:
-
 T:"This portfolio!"
 D:"I wanted to make a portfolio to show off my skills"
 S: HTML CSS JavaScript
@@ -15,3 +9,10 @@ D:"During my classes I found that I would regularly have to upload images to my 
 S: Python Flask Web-Development
 L:https://github.com/dremichj/CBSend
 E:
+
+T:"PinPad"
+D:"A simple sticky note application"
+S: C++ Qt
+L: https://github.com/dremichj/pinpad
+E:
+
