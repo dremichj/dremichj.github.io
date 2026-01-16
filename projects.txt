@@ -1,5 +1,5 @@
 T:"This portfolio!"
-D:"I wanted to make a portfolio to show off my skills"
+D:"I wanted to make a portfolio to show off my skills."
 S: HTML CSS JavaScript
 L:https://github.com/dremichj/dremichj.github.io
 E:
@@ -11,7 +11,7 @@ L:https://github.com/dremichj/CBSend
 E:
 
 T:"PinPad"
-D:"A simple sticky note application"
+D:"A simple sticky note application where the user can pin a note to their screen. I made this application because I was frustrated with Windows own sticky note app."
 S: C++ Qt
 L: https://github.com/dremichj/pinpad
 E:
